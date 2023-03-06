@@ -4,8 +4,8 @@
   "description": "focal-backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js -e ejs,js,css,html,jpg,png,scss"
+    "start": "nodemon server.js -e ejs,js,css,html,jpg,png,scss",
+    "build": "node server.js"
   },
   "keywords": [
     "node.js",
